@@ -31,7 +31,7 @@ Typography
 }
 
 .font-2xl-bold {
-  font-family: var(--creato-display); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--creato-display);
   font-weight: var(--bold);
   font-size: var(--font-2xl);
   line-height: var(--font-lh-2xl);
@@ -40,7 +40,7 @@ Typography
 }
 
 .font-xl-bold {
-  font-family: var(--creato-display); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--creato-display);
   font-weight: var(--bold);
   font-size: var(--font-xl);
   line-height: var(--font-lh-xl);
@@ -49,7 +49,7 @@ Typography
 }
 
 .font-lg-bold {
-  font-family: var(--creato-display); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--creato-display);
   font-weight: var(--bold);
   font-size: var(--font-lg);
   line-height: var(--font-lh-xl);
@@ -58,7 +58,7 @@ Typography
 }
 
 .font-lg-semibold {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--demi-bold);
   font-size: var(--font-lg);
   line-height: var(--font-lh-xl);
@@ -67,7 +67,7 @@ Typography
 }
 
 .font-lg-regular {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--regular);
   font-size: var(--font-lg);
   line-height: var(--font-lh-xl);
@@ -85,7 +85,7 @@ Typography
 }
 
 .font-md-underlined {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--regular);
   font-size: var(--font-md);
   line-height: var(--font-lh-md);
@@ -94,7 +94,7 @@ Typography
 }
 
 .font-md-bold {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--demi-bold);
   font-size: var(--font-md);
   line-height: var(--font-lh-md);
@@ -112,7 +112,7 @@ Typography
 }
 
 .font-sm-underlined {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--regular);
   font-size: var(--font-sm);
   line-height: var(--font-lh-sm);
@@ -121,7 +121,7 @@ Typography
 }
 
 .font-sm-bold {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--demi-bold);
   font-size: var(--font-sm);
   line-height: var(--font-lh-sm);
@@ -139,7 +139,7 @@ Typography
 }
 
 .font-1xs-underlined {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--regular);
   font-size: var(--font-1xs);
   line-height: var(--font-lh-sm);
@@ -148,7 +148,7 @@ Typography
 }
 
 .font-1xs-bold {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--demi-bold);
   font-size: var(--font-1xs);
   line-height: var(--font-lh-1xs);
@@ -166,7 +166,7 @@ Typography
 }
 
 .font-1xs-bold {
-  font-family: var(--avenir-next); /* Replace with your actual font-family variable or direct value */
+  font-family: var(--avenir-next);
   font-weight: var(--demi-bold);
   font-size: var(--font-2xs);
   line-height: var(--font-lh-2xs);
