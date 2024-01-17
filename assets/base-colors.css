@@ -1,0 +1,60 @@
+:root {
+  /* Marca */
+  --primario: rgba(5, 11, 63, 1);
+  --secundario: rgba(27, 40, 201, 1);
+  --acento: rgba(255, 13, 88, 1);
+  --gradient: linear-gradient(90deg, rgba(44, 39, 193, 1) 0%, rgba(255, 13, 88, 1) 100%);
+  --reverse-gradient: linear-gradient(90deg, rgba(255, 13, 88, 1) 0%, rgba(44, 39, 193, 1) 100%);
+
+  /* Niveles de dificultat */
+  --basico: rgba(26, 178, 23, 1);
+  --intermedio: rgba(242, 146, 3, 1);
+  --avanzado: rgba(191, 28, 67, 1);
+
+  /* Neutrales */
+  --neutral-600: rgba(86, 96, 103, 1);
+  --neutral-500: rgba(125, 138, 146, 1);
+  --neutral-400: rgba(232, 236, 237, 1);
+  --neutral-300: rgba(205, 214, 229, 1);
+  --neutral-200: rgba(225, 231, 239, 1);
+  --neutral-100: rgba(238, 241, 246, 1);
+  --neutral-50: rgba(250, 250, 250, 1);
+  --neutral: rgba(255, 255, 255, 1);
+
+  /* Border radius */
+  --border-radius: 28px;
+}
+
+.haciendola-button {
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  border-width: 0;
+  font-size: var(--font-sm);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.haciendola-button--primary {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  background-image: linear-gradient(to right, rgba(44, 39, 193, 1) 0%, rgba(255, 13, 88, 1) 50%);
+}
+
+.haciendola-button--primary:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.haciendola-button--secondary {
+  background: transparent;
+  color: var(--primario);
+  border: 1px solid var(--primario);
+}
+
+.haciendola-button--secondary:hover {
+  background: #dadada;
+}

@@ -1,0 +1,117 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--neutral);
+  gap: 50px;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-section {
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1500px;
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-text img {
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-text {
+    text-align: unset;
+    max-width: 500px;
+    position: relative;
+  }
+
+  .hero-text img {
+    display: block;
+    position: absolute;
+    max-width: 163px;
+    height: auto;
+    width: 100%;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.hero-text h1 {
+  color: var(--primario);
+  line-height: 48px;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-text h1.font-xl-bold {
+    font-size: 72px;
+    line-height: 80px;
+  }
+}
+
+.hero-text p {
+  color: var(--neutral-600);
+}
+
+@media screen and (min-width: 990px) {
+  .hero-text p.font-sm-regular {
+    font-size: 20px;
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-buttons {
+    max-width: 70%;
+  }
+}
+
+.hero-buttons .haciendola-button {
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--gradient);
+}
+
+.btn-secondary {
+  background: var(--neutral);
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-image img {
+    max-width: 800px;
+  }
+}
+
+.button-container {
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
