@@ -250,7 +250,10 @@
         }
       }
     {% endstyle %}
-
+    
+    {{ 'typography.css' | asset_url | stylesheet_tag  }}
+    {{ 'normalize.css' | asset_url | stylesheet_tag  }}
+    {{ 'base-colors.css' | asset_url | stylesheet_tag  }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}

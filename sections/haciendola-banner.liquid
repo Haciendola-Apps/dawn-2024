@@ -1,0 +1,36 @@
+{{ 'haciendola-banner.css' | asset_url | stylesheet_tag }}
+
+
+<div class="hero-section">
+  <div class="hero-text">
+    <h1 class="font-xl-bold">Continúa tu formación</h1>
+    <p class="font-sm-regular">El conocimiento es la mejor herramienta para crecer y sacar adelante a tu negocio</p>
+    <div class="hero-buttons">
+      <button class="haciendola-button haciendola-button--primary">Ver cursos</button>
+      <button class="haciendola-button haciendola-button--secondary">Conócenos</button>
+    </div>
+
+    <img src="{{ 'pink-line.png' |  asset_url }}" alt="arrow">
+  </div>
+  <div class="hero-image">
+    <img src="{{ 'oski-banner.webp' |  asset_url }}" alt="Oscar muñoz Banner">
+    <div class="button-container">
+      <span class="btn-play">{% render 'h-icon-pause' %}</span>
+      <span class="btn-play">{% render 'h-icon-expand' %}</span>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Haciendola banner",
+    "tag": "section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Haciendola banner"
+      }
+    ]
+  }
+{% endschema %}
